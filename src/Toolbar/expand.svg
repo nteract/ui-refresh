@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="24px" viewBox="0 0 16 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <path d="M12,0 C14.209139,-4.05812251e-16 16,1.790861 16,4 L16,20 C16,22.209139 14.209139,24 12,24 L0,24 L0,0 L12,0 Z" id="Combined-Shape" fill="#E2E5E7"></path>
+            <g id="Group-6" transform="translate(4.000000, 10.000000)" fill="#29313A" fill-rule="nonzero">
+                <rect id="Rectangle" x="0" y="0" width="5" height="1" rx="0.5"></rect>
+                <rect id="Rectangle" x="0" y="2" width="5" height="1" rx="0.5"></rect>
+                <rect id="Rectangle" x="0" y="4" width="5" height="1" rx="0.5"></rect>
+                <path d="M9.1427,2.28563 L7.3786,1.22717 C7.212,1.1272 7,1.24722 7,1.44155 L7,3.55845 C7,3.75278 7.212,3.8728 7.3786,3.77283 L9.1427,2.71437 C9.3045,2.61727 9.3045,2.38273 9.1427,2.28563 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
