@@ -7,7 +7,7 @@ const pause = require('../src/Toolbar/pause.svg');
 const clear = require('../src/Toolbar/clear.svg');
 
 export default {
-  title: 'Welcome',
+  title: 'Toolbar',
 };
 
 // By passing optional props to this story, you can control the props of the component when
