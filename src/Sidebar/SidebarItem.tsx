@@ -87,6 +87,7 @@ export const SidebarItem: FC<SidebarItemProps> = ({
     <Chevron className={classnames('chevron', { rotate: !isOpen })} />
     // <img src={chevron} className={classnames('chevron', { rotate: !isOpen })} />
   );
+
   const onToggleExpanded = (e: React.MouseEvent) => {
     e.preventDefault();
     setIsExpanded(previous =>

@@ -12,11 +12,13 @@
 }
 
 .sidebar-item-group {
+  visibility: hidden;
   height: 0;
   opacity: 0;
 }
 
 .sidebar-item-group-expanded {
+  visibility: visible;
   height: unset;
   opacity: 1;
 }
@@ -57,7 +59,7 @@
 }
 
 .sidebar-item:not(.sidebar-item-file) > button {
-  margin-bottom: 16px;
+  margin-bottom: 0px;
 }
 
 .sidebar-item svg{
@@ -71,8 +73,4 @@
 
 .sidebar-item .chevron.rotate {
   transform: rotate(-90deg);
-}
-
-.sidebar-item-file:not(:last-child), .sidebar-item-file:first-child {
-  margin-bottom: 16px;
 }
