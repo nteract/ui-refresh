@@ -1,0 +1,36 @@
+.cell-box {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  background: #FFFFFF;
+  border: 1px solid #EEEFF0;
+  box-shadow: 0px 2px 4px rgba(41, 49, 58, 0.075);
+  border-radius: 4px;
+  font-family: 'Source Code Pro', sans-serif;
+}
+
+.cell-box:focus, .cell-box:focus-within {
+  outline: 0;
+  background: #FFFFFF;
+  border: 1px solid #E2E5E7;
+
+  box-shadow: 0px 2px 8px rgba(41, 49, 58, 0.15);
+  border-radius: 4px;
+}
+
+.cell-gutter {
+  padding: 8px 0 0 8px;
+  height: 100%;
+}
+
+.cell-gutter > * {
+  margin-bottom: 4px;
+}
+
+.cell-box.no-gutter {
+  padding-left: 52px;
+}
+
+.cell-body {
+  padding: 16px;
+}
