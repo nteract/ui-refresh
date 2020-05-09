@@ -7,7 +7,7 @@ export default {
   title: 'Cell',
 };
 
-export const WithSidebarItemsList = (props?: Partial<Props>) => {
+export const BaseCell = (props?: Partial<Props>) => {
   const [isLoading, setIsLoading] = useState(false);
   const [percentComplete, setPercentComplete] = useState(0);
 
