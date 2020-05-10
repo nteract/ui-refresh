@@ -38,3 +38,9 @@
 .cell-menu-item.heading {
   color: rgba(255, 255, 255, 0.6);
 }
+
+.cell-menu-item .cell-menu-item-toggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

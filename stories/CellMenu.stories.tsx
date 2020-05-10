@@ -26,10 +26,12 @@ export const Default = (props?: Partial<Props>) => {
           <span>Two</span>
         </CellMenuItem>
         <CellMenuItem>
-          Two
           <ToggleSwitch
+            label="Input"
+            labelPlacement="start"
             checked={checked}
             onChange={() => toggleChecked(previous => !previous)}
+            className="cell-menu-item-toggle"
           />
         </CellMenuItem>
       </CellMenuSection>
