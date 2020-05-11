@@ -8,7 +8,7 @@ import React, {
 } from 'react';
 import classnames from 'classnames';
 
-import { File, Folder, Chevron } from './Icons';
+import { File, Folder, Chevron } from '../Icons';
 
 export type DirectoryListItem = {
   name: string;

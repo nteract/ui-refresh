@@ -1,0 +1,78 @@
+.cell-menu {
+  background: #29313A;
+  border: 1px solid #13181E;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 42px rgba(0, 0, 0, 0.32), 0px 6px 24px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  color: #FFF;
+  padding: 8px 0;
+}
+
+.cell-menu svg * {
+  stroke: #FFF;
+}
+
+.cell-menu > * {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+}
+
+.cell-menu > *:not(:first-child) {
+  border-top: 1px solid rgba(143, 150, 157, .2);
+}
+
+.cell-menu > *:not(:last-child) {
+  border-bottom: 1px solid #13181E;
+}
+
+.cell-menu-section > *:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.cell-menu-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cell-menu-item > * {
+  padding: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.cell-menu-item > button {
+  background: none;
+  width: 100%;
+  border: none;
+  text-align: left;
+  color: white;
+  font-size: 13px;
+}
+
+.cell-menu-item > button > *{
+  margin-right: 8px;
+}
+
+.cell-menu-item > button:hover,
+.cell-menu-item > button:focus,
+.cell-menu-item > button:active,
+.cell-menu-item label:hover,
+.cell-menu-item label:focus,
+.cell-menu-item label.active {
+  background-color: #6100FF;
+}
+
+.cell-menu-item.heading {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.cell-menu-item .cell-menu-item-toggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
