@@ -1,0 +1,42 @@
+.toolbar-item {
+  display: flex;
+  flex-direction: column;
+  background: none;
+  border: none;
+  color: #757F88;
+  font-size: 11px;
+  line-height: 13px;
+  align-items: center;
+  outline: none;
+  opacity: 1;
+  min-height: 24px;
+  transition-property: opacity;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
+}
+
+.toolbar-item.hidden {
+  opacity: 0;
+}
+
+.toolbar-item span {
+  height: 0;
+  opacity: 0;
+  transition-property: height opacity;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
+}
+
+.toolbar-item span.display {
+  height: 15px;
+  opacity: 1;
+  transition-duration: 300ms;
+  margin-top: 11px;
+}
+
+.toolbar-item-expand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}

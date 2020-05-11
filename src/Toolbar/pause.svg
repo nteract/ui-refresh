@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 3</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#E2E5E7" x="0" y="0" width="24" height="24" rx="4"></rect>
+            <polygon id="Path" stroke="#29313A" stroke-width="2" fill="#29313A" stroke-linecap="round" stroke-linejoin="round" points="9 15 10 15 10 9 9 9"></polygon>
+            <polygon id="Path" stroke="#29313A" stroke-width="2" fill="#29313A" stroke-linecap="round" stroke-linejoin="round" points="14 15 15 15 15 9 14 9"></polygon>
+        </g>
+    </g>
+</svg>
