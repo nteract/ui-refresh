@@ -1,0 +1,66 @@
+
+.circular-button {
+  position: relative;
+  --background-color: rgba(0,0,0, 0);
+  --border-color: #BABFC4;
+  --radius: 16px;
+  --fill-color: #757F88;
+  width: calc(var(--radius) * 2);
+  height: calc(var(--radius) * 2);
+  border-radius: var(--radius);
+  border: 1px solid var(--border-color);
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circular-button svg:not(.progress-ring) * {
+  fill: var(--fill-color);
+}
+
+.circular-button svg * {
+  stroke: var(--fill-color);
+}
+
+.circular-button:hover {
+  --background-color: #EEEFF0;
+  --border-color:#8F969D;
+  --fill-color: #29313A;
+}
+
+.circular-button:focus, .circular-button.active {
+  outline: 0;
+}
+
+.circular-button:focus, .circular-button.active {
+  --fill-color: #6100FF;
+  --border-color: #6100FF;
+}
+
+.circular-button.error {
+  --fill-color: #E53935;
+  --border-color: #E53935;
+}
+
+.circular-button.error:hover {
+  --fill-color: rgb(233, 82, 79);
+  --border-color: rgb(233, 82, 79);
+}
+
+.circular-button > svg.progress-ring {
+  display: none;
+}
+
+.circular-button.progress {
+  border: none;
+}
+.circular-button.progress > .progress-ring {
+  display: block;
+}
+
+.progress-ring {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
