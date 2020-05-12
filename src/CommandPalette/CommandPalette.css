@@ -1,0 +1,97 @@
+.command-palette {
+  font-family: sans-serif;
+  padding: 20px 0;
+  background: #29313A;
+  border: 1px solid #13181E;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 42px rgba(0, 0, 0, 0.32), 0px 6px 24px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+}
+
+.command-palette-key-tag {
+  display: inline-flex;
+  background-color: rgba(30, 36, 44, .5);
+  border-radius: 2px;
+  padding: 8px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.command-palette-key-tag.mini {
+  background-color: #1E242C;
+  border-radius: 2px;
+  padding: 2px 4px;
+  margin-left: 4px;
+  color: white;
+  min-width: 20px;
+  min-height: 20px;
+  font-size: 13px;
+}
+
+.command-palette-row {
+  padding: 6px 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button.command-palette-row {
+  font-size: 14px;
+  color: #fff;
+  width: 100%;
+  background: none;
+  border: none;
+}
+
+button.command-palette-row span {
+  display: flex;
+  align-items: center;
+}
+
+button.command-palette-row span > *:not(:last-child) {
+  margin-right: 4px;
+}
+
+.command-palette-row:hover:not(:first-child) {
+  background-color: rgba(143, 150, 157, .1);
+}
+
+.command-palette-row .command-name > *:first-child {
+  margin-right: 12px;
+}
+
+.command-palette-input-row {
+  padding: 8px 32px;
+}
+/* TODO: This could be a reusable class instead for hiding content */
+.command-palette-input-row label {
+  position: absolute !important;
+  height: 1px; 
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap; /* added line */
+}
+
+.command-palette-input-row input {
+  border: 1px solid rgba(253, 253, 253, .3);
+  border-radius: 4px;
+  background-color: transparent;
+  color: #FFF;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 24px;
+  padding: 4px;
+}
+
+.command-palette-input-row input:focus {
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: unset;
+  border-bottom: 3px solid rgba(253, 253, 253, .1);
+
+}
