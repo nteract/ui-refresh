@@ -11,7 +11,7 @@ export const Standard = (props?: Partial<Props>) => (
   <CommandPalette
     placeholder="Filter commands"
     onChange={action('ON CHANGE')}
-    shortCut={['⌘', 'H']}
+    shortCut={['⌘', 'M']}
   >
     <CommandButtonRow
       onClick={action('Run Cell')}
