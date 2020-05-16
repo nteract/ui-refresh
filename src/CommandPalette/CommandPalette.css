@@ -85,7 +85,7 @@ button.command-palette-row span > *:not(:last-child) {
   box-sizing: border-box;
   width: 100%;
   font-size: 24px;
-  padding: 4px;
+  padding: 8px;
 }
 
 .command-palette-input-row input:focus {

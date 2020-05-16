@@ -11,7 +11,12 @@ export const CommandButtonRow: FC<CommandButtonRowProps> = ({
   ...props
 }) => {
   return (
-    <button type="button" {...props} className="command-palette-row">
+    <button
+      type="button"
+      {...props}
+      className="command-palette-row"
+      tabIndex={-1}
+    >
       <span className="command-name">{children}</span>
       <span>
         {shortCut.map(shortcut => (
